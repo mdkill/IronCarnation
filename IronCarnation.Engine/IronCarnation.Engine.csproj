@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\IronCarnation.Generators\IronCarnation.Generators.csproj" />
+    <ProjectReference Include="..\IronCarnation.Interfaces\IronCarnation.Interfaces.csproj" />
+    <ProjectReference Include="..\IronCarnation.ModelConfig\IronCarnation.ModelConfig.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
